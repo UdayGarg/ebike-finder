@@ -1,8 +1,10 @@
 # Ebike-finder
 ## Overview
-**Ebike-finder** is a machine learning-powered service that predicts the availability of e-bikes at Bluebikes stations across Boston. The service leverages real-time and historical data to forecast bike availability, helping users plan their trips more efficiently by ensuring they have access to bikes when and where they need them. This project is hosted on Hugging Face Spaces and uses Gradio as the frontend interface.
+**Ebike-finder** is a machine learning-powered service that predicts the availability of e-bikes at Bluebikes stations across Boston. 
+The service leverages real-time and historical data to forecast bike availability, helping users plan their trips more efficiently by ensuring they have access to bikes when and where they need them. 
+This project is hosted on Hugging Face Spaces and uses Gradio as the frontend interface.
 
-You can access the service here: [Ebike-finder on Hugging Face](https://huggingface.co/spaces/your-username/Ebike-finder).
+You can access the service here: [Ebike-finder on Hugging Face](https://huggingface.co/spaces/UdayG98/ebike-finder).
 
 ## Key Features
 - **Real-Time Predictions**: Instantly predicts the availability of e-bikes at a selected Bluebikes station.
@@ -14,7 +16,7 @@ You can access the service here: [Ebike-finder on Hugging Face](https://huggingf
 The service is ideal for daily commuters, occasional riders, or tourists who rely on Boston's Bluebikes system for transportation. By predicting e-bike availability, users can plan ahead and avoid situations where bikes may be unavailable at the station closest to them.
 
 ### Example Use Case:
-- A user who commutes from **Boston University** to **Back Bay** can use the Ebike-finder service to check the predicted e-bike availability at the station near **Boston University** before leaving home. This ensures that an e-bike will be available for their ride, improving commute efficiency.
+- A user who commutes from **Allston** to **Boston University** can use the Ebike-finder service to check the predicted e-bike availability at the station near **Allston** before leaving home. This ensures that an e-bike will be available for their ride, improving commute efficiency.
 
 ## How It Works
 1. **Data Collection**: The service collects real-time station data from the Bluebikes GBFS feed, including information such as station location, bike availability, and e-bike status.
@@ -27,4 +29,4 @@ To run the service locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Ebike-finder.git
+   git clone git@github.com:UdayGarg/ebike-finder.git
