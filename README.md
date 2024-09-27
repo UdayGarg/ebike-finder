@@ -50,17 +50,5 @@ The interface is simple and intuitive, ensuring a smooth experience for all user
 3. **User Input**: Users select a station of interest through the Gradio interface.
 4. **Prediction**: The backend processes the input, generates a prediction using the machine learning model, and returns the result to the user through the Gradio interface.
 
-## Installation & Setup (For Developers)
-
-To run the service locally, follow these steps:
-
-### Prerequisites
-- Python 3.8 or later
-- AWS credentials configured for S3 and Lambda access
-- Hugging Face and Gradio accounts (for hosting, if desired)
-
-### Steps
-
-1. Clone the repository:
-   ```bash
-   git clone git@github.com:UdayGarg/ebike-finder.git
+## AWS architecture overview
+![ARCH](./AWS_Architecture.png)
