@@ -51,4 +51,4 @@ The interface is simple and intuitive, ensuring a smooth experience for all user
 4. **Prediction**: The backend processes the input, generates a prediction using the machine learning model, and returns the result to the user through the Gradio interface.
 
 ## AWS architecture overview
-![ARCH](./AWS_Architecture.png)
+![ARCH](./AWS_Architecture.jpg)
